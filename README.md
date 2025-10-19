@@ -2,7 +2,7 @@
 
 ## 📘 Project Overview
 
-A ficticious bank called Mobil Bank aims to provide vehicle financing to clients.  
+A ficticious bank called Mobil Bank aims to grant vehicle financing to clients.  
 To minimize financial risk, it requires a **Machine Learning model** capable of predicting — based on client attributes such as income, profession, and marital status — whether a client will be a **good payer (`1`)** or a **bad payer (`0`)**.
 
 The **Credit Risk Department** defined the following requirements:
