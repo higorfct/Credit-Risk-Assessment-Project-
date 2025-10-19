@@ -28,6 +28,7 @@ The **Credit Risk Department** defined the following requirements:
 │ ├── test_API.py # API endpoints test
 │ ├── webapp/ # Streamlit application (frontend)
 │ └── utils.py # Reusable functions
+├── config.yaml #DB info that will set to be ignored by .gitignore
 ├── .gitignore
 ├── requirements.txt
 └── README.md
