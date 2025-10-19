@@ -19,15 +19,16 @@ The **Credit Risk Department** defined the following requirements:
 
 ```
 📂 credit-approval-ml
-├── screenshots/               # feature importance, metrics and streamlit webapp
+├── screenshots/ # feature importance, metrics and Streamlit webapp
 ├── src/
-│   ├── preprocessing.py       # Data cleaning and transformations
-│   ├── train_model.py         # Model training and evaluation
-│   ├── model.pkl              # Serialized model
-│   ├── api.py                 # Flask API
-│   ├── app_streamlit.py       # Streamlit app
-│   └── db_connection.py       # PostgreSQL integration
-├── gitignore
+│ ├── API.py # Flask API
+│ ├── Best_Model.py # Model training and evaluation
+│ ├── Const.py # SQL queries
+│ ├── Models.py # All models ran
+│ ├── test_API.py # API endpoints test
+│ ├── webapp/ # Streamlit application (frontend)
+│ └── utils.py # Reusable functions
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
