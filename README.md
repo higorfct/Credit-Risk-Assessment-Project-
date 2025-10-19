@@ -15,6 +15,24 @@ The **Credit Risk Department** defined the following requirements:
 * 🖥️ **User Interface (UI)**
 
 ---
+## 📦 Project Structure
+
+```
+📂 credit-approval-ml
+├── screenshots/               # feature importance, metrics and streamlit webapp
+├── src/
+│   ├── preprocessing.py       # Data cleaning and transformations
+│   ├── train_model.py         # Model training and evaluation
+│   ├── model.pkl              # Serialized model
+│   ├── api.py                 # Flask API
+│   ├── app_streamlit.py       # Streamlit app
+│   └── db_connection.py       # PostgreSQL integration
+├── gitignore
+├── requirements.txt
+└── README.md
+```
+
+---
 
 ## 📊 Exploratory Data Analysis (EDA)
 
@@ -176,21 +194,3 @@ Port: 5432
 * **AWS EC2** (deployment)
 ---
 
-## 📦 Project Structure
-
-```
-📂 credit-approval-ml
-├── screenshots/               # feature importance, metrics and streamlit webapp
-├── src/
-│   ├── preprocessing.py       # Data cleaning and transformations
-│   ├── train_model.py         # Model training and evaluation
-│   ├── model.pkl              # Serialized model
-│   ├── api.py                 # Flask API
-│   ├── app_streamlit.py       # Streamlit app
-│   └── db_connection.py       # PostgreSQL integration
-├── gitignore
-├── requirements.txt
-└── README.md
-```
-
----
