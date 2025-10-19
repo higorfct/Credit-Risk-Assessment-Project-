@@ -1,0 +1,13 @@
+# Sensitive configuration files
+config.yaml
+
+# Objects directory (keep the .gitkeep file)
+objects/*
+!objects/.gitkeep
+
+# Python cache folders
+**/__pycache__/
+
+# MLflow tracking and artifact directories
+mlruns/
+mlartifacts/
