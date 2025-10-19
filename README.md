@@ -143,7 +143,7 @@ Deployment architecture:
 * **Flask API** – Receives JSON input and returns predictions in real time  
 * **Streamlit App** – Provides an intuitive interface for analysts and managers to test credit scenarios  
 
-Both components are **containerized with Docker** and configured for **AWS EC2** deployment.
+Both components are deployed directly on an AWS EC2 instance, which serves as the virtual machine hosting the API and the Streamlit UI.
 
 ---
 
