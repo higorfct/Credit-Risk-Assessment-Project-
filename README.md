@@ -165,7 +165,7 @@ Deployment architecture:
 
 Both components are deployed directly on an AWS EC2 instance, which serves as the virtual machine hosting the API and the Streamlit UI.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d01140d-85f1-44a6-a3d4-ef58f5423e0e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c18f8c14-4536-4616-a6c2-f8b3ef15d8ee" />
 
 
 ---
