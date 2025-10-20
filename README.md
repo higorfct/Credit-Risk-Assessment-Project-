@@ -19,19 +19,19 @@ The **Credit Risk Department** defined the following requirements:
 
 ```
 📂 credit-approval-ml
-├── screenshots/ # feature importance, metrics and Streamlit webapp
-├── src/
-│ ├── API.py # Flask API
-│ ├── Best_Model.py # Model training and evaluation
-│ ├── Const.py # SQL queries
-│ ├── Models.py # All models ran
-│ ├── test_API.py # API endpoints test
-│ ├── webapp/ # Streamlit application (frontend)
-│ └── utils.py # Reusable functions
-├── config.yaml #DB info that will set to be ignored by .gitignore
-├── .gitignore
-├── requirements.txt
-└── README.md
+├── screenshots/ # Feature importance, metrics, Streamlit webapp screenshots
+├── src/ # Source code
+│ ├── API.py # Flask API endpoints
+│ ├── Best_Model.py # Model training and evaluation pipeline
+│ ├── Const.py # SQL queries and constants
+│ ├── Models.py # Scripts for testing multiple ML models
+│ ├── test_API.py # Unit tests for API endpoints
+│ ├── webapp/ # Streamlit frontend application
+│ └── utils.py # Reusable helper functions
+├── config.yaml # Database configuration (ignored by .gitignore)
+├── requirements.txt # Python dependencies
+├── .gitignore # Git ignore rules
+└── README.md # Project overview, instructions, and documentation
 ```
 
 ---
