@@ -19,19 +19,37 @@ The **Credit Risk Department** defined the following requirements:
 
 ```
 📂 credit-approval-ml
-├── screenshots/ # Feature importance, metrics, Streamlit webapp screenshots
-├── src/ # Source code
-│ ├── API.py # Flask API endpoints
-│ ├── Best_Model.py # Model training and evaluation pipeline
-│ ├── Const.py # SQL queries and constants
-│ ├── Models.py # Scripts for testing multiple ML models
-│ ├── test_API.py # Unit tests for API endpoints
-│ ├── webapp/ # Streamlit frontend application
-│ └── utils.py # Reusable helper functions
-├── config.yaml # Database configuration (ignored by .gitignore)
-├── requirements.txt # Python dependencies
-├── .gitignore # Git ignore rules
-└── README.md # Project overview, instructions, and documentation
+├── screenshots/                     # Feature importance, metrics, and Streamlit webapp screenshots
+│
+├── src/                             # Source code
+│   ├── API.py                       # Flask API endpoints
+│   ├── Best_Model.py                # Model training and evaluation pipeline
+│   ├── Const.py                     # SQL queries and constants
+│   ├── Models.py                    # Scripts for testing and comparing ML models
+│   ├── webapp/                      # Streamlit frontend application
+│   └── utils.py                     # Reusable helper functions
+│
+├── tests/                           # Automated testing suite
+│   ├── unit/                        # Unit tests (isolated modules)
+│   │   ├── test_utils.py            # Tests for helper functions
+│   │   ├── test_data_preprocessing.py # Tests for data cleaning & feature engineering
+│   │   ├── test_feature_selection.py # Tests for RFE and feature selection
+│   │   ├── test_model_training.py   # Tests for model training and tuning
+│   │   ├── test_model_evaluation.py # Tests for model metrics and scoring
+│   │   └── test_API.py              # Unit tests for API routes
+│   │
+│   ├── integration/                 # Integration tests (end-to-end)
+│   │   ├── test_ModelWithAPI.py     # Tests integration between model and API
+│   │   ├── test_database_connection.py # Tests PostgreSQL connection and data retrieval
+│   │   └── test_end_to_end_pipeline.py # Full flow: data → model → API
+│   │
+│   ├── conftest.py                  # Shared fixtures (Flask client, fake model, DB mocks)
+│
+├── config.yaml                      # Database configuration (ignored by .gitignore)
+├── requirements.txt                 # Python dependencies
+├── .gitignore                       # Git ignore rules
+└── README.md                        # Project overview, setup, and documentation
+
 ```
 
 ---
