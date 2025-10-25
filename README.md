@@ -156,7 +156,7 @@ In the context of **credit approval**, the **priority is identifying and avoidin
 | **F1-Score (0.84)** | Strong balance between precision and recall for the negative class. |
 
 📊 **Key takeaway:**
-> The model prioritizes *recall for bad payers (93%)* — reducing the probability of granting credit to high-risk clients — while maintaining solid accuracy (86%) across all predictions.
+> The model correctly identifies 93% of bad payers *(recall for bad payers (93%)* — reducing the probability of granting credit to high-risk clients — while maintaining solid accuracy (86%) across all predictions.
 
 ---
 
